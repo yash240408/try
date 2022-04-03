@@ -1,0 +1,85 @@
+body,html
+{
+    height: 100%;
+    
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.bgimg
+{
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#header
+{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.loginfrm
+{
+    
+    height: 400px;
+    width: 400px;
+    border: 0px solid black;
+    background-image: url("backgrd.jpg");
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto ;
+    margin-top: 150px;
+    
+
+}
+
+.loginfrm input[type="text"],.loginfrm input[type="password"]
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 100%;
+    
+    
+}
+
+
+.loginfrm input[type="submit"]
+{
+    border-bottom-left-radius: 25px;    
+    border-bottom-right-radius: 25px;    
+    border-top-left-radius: 25px;    
+    border-top-right-radius: 25px;    
+    padding-left: 10px;
+    width: 100%;
+    height: 25px;
+    background-image: url("backgrd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+
+     
+     
+    
+}    
+#submit
+{
+    font-weight: 600;
+    
+}
+#forpass
+{
+   float: right;
+   color: rgb(122, 168, 253);
+}
+#sign
+{
+    text-align: center;
+}
+
+

@@ -1,0 +1,112 @@
+body,html
+{
+    height: 100%;
+    
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.bgimg
+{
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#header
+{
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 900;
+    
+}
+
+.signupfrm
+{
+    
+    height: 400px;
+    width: 600px;
+    border: 0px solid black;
+    background-image: url("backgrd.jpg");
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto ;
+    margin-top: 150px;
+    
+
+}
+
+#fname
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+#lname
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+#username
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+#email
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+#password
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+#cpassword
+{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: auto;
+}
+
+
+#heading
+{
+    text-align: center;
+    font-size: 20px;
+}
+.signupfrm input[type="submit"]
+{
+    border-bottom-left-radius: 25px;    
+    border-bottom-right-radius: 25px;    
+    border-top-left-radius: 25px;    
+    border-top-right-radius: 25px;    
+    padding-left: 10px;
+    width: 100%;
+    height: 25px;
+    background-image: url("backgrd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+
+     
+     
+    
+}    
+#submit
+{
+    font-weight: 600;
+    
+}
+
+
+
